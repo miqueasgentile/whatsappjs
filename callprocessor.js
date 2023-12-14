@@ -1,3 +1,5 @@
+// @include callprocessor.js
+
 setTimeout(() => {
   var tr1 = document.querySelector("#tabla_servicios > table:nth-child(1) > thead > tr > th:nth-child(1)")
   tr1.className = 'tr1';
